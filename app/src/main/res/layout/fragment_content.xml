@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.xyh.mix.view.NoScrollerViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#95545454"/>
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rbtn_news"
+            style="@style/BottomTabStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_chrome_reader_mode_black_36dp"
+            android:text="资讯"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_explore"
+            style="@style/BottomTabStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_explore_black_36dp"
+            android:text="发现"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_meizi"
+            style="@style/BottomTabStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_supervisor_account_black_36dp"
+            android:text="社区"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_settings"
+            style="@style/BottomTabStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_settings_black_36dp"
+            android:text="设置"/>
+
+    </RadioGroup>
+
+</LinearLayout>
