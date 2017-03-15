@@ -13,46 +13,39 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#95545454"/>
+        android:background="#951a1919"/>
 
     <RadioGroup
         android:id="@+id/rg_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff"
+        android:background="@color/colorPrimary"
         android:orientation="horizontal">
 
 
         <RadioButton
+            android:checked="true"
             android:id="@+id/rbtn_news"
             style="@style/BottomTabStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableTop="@drawable/ic_chrome_reader_mode_black_36dp"
+            android:drawableTop="@drawable/ic_chrome_reader_mode_white_36dp"
             android:text="资讯"/>
 
         <RadioButton
             android:id="@+id/rbtn_explore"
             style="@style/BottomTabStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableTop="@drawable/ic_explore_black_36dp"
+            android:drawableTop="@drawable/ic_explore_white_36dp"
             android:text="发现"/>
 
         <RadioButton
-            android:id="@+id/rbtn_meizi"
+            android:id="@+id/rbtn_social"
             style="@style/BottomTabStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableTop="@drawable/ic_supervisor_account_black_36dp"
+            android:drawableTop="@drawable/ic_supervisor_account_white_36dp"
             android:text="社区"/>
 
         <RadioButton
             android:id="@+id/rbtn_settings"
             style="@style/BottomTabStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableTop="@drawable/ic_settings_black_36dp"
+            android:drawableTop="@drawable/ic_settings_white_36dp"
             android:text="设置"/>
 
     </RadioGroup>
