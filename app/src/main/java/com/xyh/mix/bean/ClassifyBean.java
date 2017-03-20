@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class ClassifyBean {
     public ArrayList<HotName> tngou;
 
+    //页签对象
     public class HotName {
         public String description;
         public String keywords;

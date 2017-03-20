@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Mix</string>
+
+    <string-array name="tab_names">
+        <item>福利</item>
+        <item>Android</item>
+        <item>iOS</item>
+        <item>拓展资源</item>
+        <item>前端</item>
+
+    </string-array>
+
 </resources>
