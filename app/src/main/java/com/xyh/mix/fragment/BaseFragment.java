@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.xyh.mix.utils.UIUtils;
+import com.xyh.mix.view.LoadingPage;
 
 /**
  * Created by xyh on 2017/3/13.
@@ -15,14 +15,14 @@ import com.xyh.mix.utils.UIUtils;
 
 public abstract class BaseFragment extends Fragment {
 
+    private LoadingPage mLoadingPage;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-//         使用textview显示当前类的类名
-         TextView view = new TextView(UIUtils.getContext());
-         view.setText(getClass().getSimpleName());
+        mLoadingPage = new LoadingPage(UIUtils.getContext());
 
-        return view;
+        return mLoadingPage;
 
     }
 
