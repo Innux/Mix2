@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mPagerTab.setViewPager(mViewPager);// 将指针和viewpager绑定在一起
         setTabsValue();
 
-       /* mPagerTab.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        mPagerTab.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
             @Override
             public void onPageSelected(int position) {
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onPageScrollStateChanged(int state) {
             }
-        });*/
+        });
     }
 
     /**

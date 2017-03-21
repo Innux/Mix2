@@ -50,12 +50,12 @@ public abstract class LoadingPage extends FrameLayout {
         }
 
         if (mErrorPage == null) {
-            mErrorPage = UIUtils.inflate(R.layout.pager_error);
+            mErrorPage = UIUtils.inflate(R.layout.page_error);
             addView(mErrorPage);
         }
 
         if (mEmptyPage == null) {
-            mEmptyPage = UIUtils.inflate(R.layout.pager_empty);
+            mEmptyPage = UIUtils.inflate(R.layout.page_empty);
             addView(mEmptyPage);
         }
 

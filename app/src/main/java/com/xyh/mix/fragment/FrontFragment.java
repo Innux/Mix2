@@ -5,9 +5,10 @@ import android.view.View;
 import com.xyh.mix.view.LoadingPage;
 
 /**
+ * 前端
  * Created by xyh on 2017/3/20.
  */
-public class FontFragment extends BaseFragment {
+public class FrontFragment extends BaseFragment {
     @Override
     public View onCreateSuccessView() {
         return null;

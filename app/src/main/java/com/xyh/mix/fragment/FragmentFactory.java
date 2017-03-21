@@ -27,7 +27,7 @@ public class FragmentFactory {
                     fragment = new ExtendFragment();
                     break;
                 case 4:
-                    fragment = new FontFragment();
+                    fragment = new FrontFragment();
                     break;
                 default:
                     break;
